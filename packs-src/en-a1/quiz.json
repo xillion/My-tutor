@@ -1,0 +1,173 @@
+{
+  "items": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "section": "s1",
+      "lesson": "l-greetings",
+      "terms": [
+        "hello"
+      ],
+      "prompt": "Как по-английски «привет»?",
+      "options": [
+        "goodbye",
+        "hello",
+        "please"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "section": "s1",
+      "lesson": "l-greetings",
+      "terms": [
+        "goodbye"
+      ],
+      "prompt": "Что значит goodbye?",
+      "options": [
+        "привет",
+        "спасибо",
+        "до свидания"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "section": "s1",
+      "lesson": "l-greetings",
+      "terms": [
+        "please"
+      ],
+      "prompt": "Какое слово — «пожалуйста»?",
+      "options": [
+        "please",
+        "thanks",
+        "hello"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q4",
+      "kind": "choice",
+      "section": "s1",
+      "lesson": "l-greetings",
+      "terms": [
+        "thanks"
+      ],
+      "prompt": "Переведи: «спасибо»",
+      "options": [
+        "thank you",
+        "goodbye",
+        "red"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q5",
+      "kind": "choice",
+      "section": "s2",
+      "lesson": "l-family",
+      "terms": [
+        "mother"
+      ],
+      "prompt": "Кто такая mother?",
+      "options": [
+        "сестра",
+        "мама",
+        "брат"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q6",
+      "kind": "choice",
+      "section": "s2",
+      "lesson": "l-family",
+      "terms": [
+        "father"
+      ],
+      "prompt": "Кто такой father?",
+      "options": [
+        "папа",
+        "брат",
+        "друг"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q7",
+      "kind": "input",
+      "section": "s2",
+      "lesson": "l-family",
+      "terms": [
+        "sister"
+      ],
+      "prompt": "Напиши по-английски: «сестра»",
+      "answer": [
+        "sister"
+      ]
+    },
+    {
+      "id": "q8",
+      "kind": "input",
+      "section": "s2",
+      "lesson": "l-family",
+      "terms": [
+        "brother"
+      ],
+      "prompt": "Напиши по-английски: «брат»",
+      "answer": [
+        "brother"
+      ]
+    },
+    {
+      "id": "q9",
+      "kind": "match",
+      "section": "s2",
+      "terms": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "prompt": "Соедини цвета",
+      "pairs": [
+        [
+          "red",
+          "красный"
+        ],
+        [
+          "blue",
+          "синий"
+        ],
+        [
+          "green",
+          "зелёный"
+        ],
+        [
+          "yellow",
+          "жёлтый"
+        ]
+      ]
+    },
+    {
+      "id": "q10",
+      "kind": "choice",
+      "section": "s2",
+      "lesson": "l-family",
+      "terms": [
+        "blue"
+      ],
+      "prompt": "Какого цвета небо? (blue / red)",
+      "options": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "answer": 1,
+      "explain": "Небо — blue, синее."
+    }
+  ]
+}

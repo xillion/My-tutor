@@ -1,0 +1,33 @@
+{
+  "$id": "lessons",
+  "type": "object",
+  "required": ["lessons"],
+  "properties": {
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "blocks"],
+        "properties": {
+          "id": { "$ref": "common#/$defs/id" },
+          "title": { "type": "string" },
+          "section": { "$ref": "common#/$defs/id" },
+          "terms": { "type": "array", "items": { "$ref": "common#/$defs/id" } },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["kind"],
+              "properties": {
+                "kind": { "enum": ["text", "heading", "image", "audio", "note", "terms"] },
+                "body": { "$ref": "common#/$defs/richtext" },
+                "src": { "type": "string" },
+                "terms": { "type": "array", "items": { "$ref": "common#/$defs/id" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

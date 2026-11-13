@@ -1,0 +1,140 @@
+{
+  "lessons": [
+    {
+      "id": "l-greetings",
+      "title": "Greetings",
+      "section": "s1",
+      "terms": [
+        "hello",
+        "goodbye",
+        "please",
+        "thanks"
+      ],
+      "blocks": [
+        {
+          "kind": "heading",
+          "body": "Say hello!"
+        },
+        {
+          "kind": "text",
+          "body": [
+            {
+              "t": "Когда мы встречаем друга, мы говорим "
+            },
+            {
+              "t": "Hello",
+              "lang": "en",
+              "fx": [
+                "bold",
+                "color:blue"
+              ],
+              "term": "hello"
+            },
+            {
+              "t": ". На прощание — "
+            },
+            {
+              "t": "Goodbye",
+              "lang": "en",
+              "fx": [
+                "bold",
+                "color:blue"
+              ],
+              "term": "goodbye"
+            },
+            {
+              "t": "."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "body": [
+            {
+              "t": "Волшебное слово: "
+            },
+            {
+              "t": "please",
+              "lang": "en",
+              "fx": [
+                "italic",
+                "underline"
+              ],
+              "term": "please"
+            },
+            {
+              "t": " — «пожалуйста». Не забывай его!"
+            }
+          ]
+        },
+        {
+          "kind": "terms",
+          "terms": [
+            "hello",
+            "goodbye",
+            "please",
+            "thanks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l-family",
+      "title": "My family",
+      "section": "s2",
+      "terms": [
+        "mother",
+        "father",
+        "sister",
+        "brother"
+      ],
+      "blocks": [
+        {
+          "kind": "heading",
+          "body": "Who is in my family?"
+        },
+        {
+          "kind": "text",
+          "body": [
+            {
+              "t": "My "
+            },
+            {
+              "t": "mother",
+              "lang": "en",
+              "fx": [
+                "bold",
+                "color:red"
+              ],
+              "term": "mother"
+            },
+            {
+              "t": " и my "
+            },
+            {
+              "t": "father",
+              "lang": "en",
+              "fx": [
+                "bold",
+                "color:red"
+              ],
+              "term": "father"
+            },
+            {
+              "t": " — это мама и папа."
+            }
+          ]
+        },
+        {
+          "kind": "terms",
+          "terms": [
+            "mother",
+            "father",
+            "sister",
+            "brother"
+          ]
+        }
+      ]
+    }
+  ]
+}

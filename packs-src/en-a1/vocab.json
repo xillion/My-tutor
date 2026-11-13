@@ -1,0 +1,280 @@
+{
+  "terms": [
+    {
+      "id": "hello",
+      "type": "word",
+      "text": [
+        {
+          "t": "hello",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "привет",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "həˈləʊ",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "goodbye",
+      "type": "word",
+      "text": [
+        {
+          "t": "goodbye",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "до свидания",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ɡʊdˈbaɪ",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "please",
+      "type": "word",
+      "text": [
+        {
+          "t": "please",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "пожалуйста",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "pliːz",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "thanks",
+      "type": "word",
+      "text": [
+        {
+          "t": "thank you",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "спасибо",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "θæŋk juː",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "mother",
+      "type": "word",
+      "text": [
+        {
+          "t": "mother",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "мама",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ˈmʌðə",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "father",
+      "type": "word",
+      "text": [
+        {
+          "t": "father",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "папа",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ˈfɑːðə",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "sister",
+      "type": "word",
+      "text": [
+        {
+          "t": "sister",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "сестра",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ˈsɪstə",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "brother",
+      "type": "word",
+      "text": [
+        {
+          "t": "brother",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "брат",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ˈbrʌðə",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "red",
+      "type": "word",
+      "text": [
+        {
+          "t": "red",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "красный",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "red",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "blue",
+      "type": "word",
+      "text": [
+        {
+          "t": "blue",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "синий",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "bluː",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "green",
+      "type": "word",
+      "text": [
+        {
+          "t": "green",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "зелёный",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ɡriːn",
+      "tags": [
+        "a1"
+      ]
+    },
+    {
+      "id": "yellow",
+      "type": "word",
+      "text": [
+        {
+          "t": "yellow",
+          "lang": "en",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "жёлтый",
+          "lang": "ru"
+        }
+      ],
+      "ipa": "ˈjeləʊ",
+      "tags": [
+        "a1"
+      ]
+    }
+  ]
+}

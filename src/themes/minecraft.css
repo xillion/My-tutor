@@ -1,0 +1,54 @@
+@import '@fontsource/press-start-2p/400.css';
+
+/* Shared shape: blocky, no rounding, bevelled pixel edges */
+[data-theme='minecraft'] {
+  --font-display: 'Press Start 2P', ui-monospace, 'Courier New', monospace;
+  --font-body: system-ui, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  --radius: 0px;
+  --border-w: 4px;
+}
+
+/* ☀ Day: sky + grass */
+[data-theme='minecraft'][data-mode='light'] {
+  --bg: #8ecbff;
+  --surface: #f1ead2;           /* sandstone */
+  --surface-hover: #e6dcb8;
+  --text: #2b2118;
+  --text-muted: #6b5d4a;
+  --border: #3b2f22;
+  --primary: #5da130;           /* grass */
+  --primary-hover: #6fb83c;
+  --btn-text: #ffffff;
+  --accent: #d98a1a;
+  --ok: #3f9a2e; --bad: #c0392b;
+  --mark: #fff08a;
+  --input-bg: #ffffff;
+  --card-shadow: inset -4px -4px 0 #cbbf98, inset 4px 4px 0 #fffbe8;
+  --btn-shadow: inset -4px -4px 0 rgba(0,0,0,.35), inset 4px 4px 0 rgba(255,255,255,.35);
+  --btn-shadow-pressed: inset 4px 4px 0 rgba(0,0,0,.35), inset -4px -4px 0 rgba(255,255,255,.25);
+  --c-red: #c0261c; --c-green: #1f7a1f; --c-blue: #1e5bb8; --c-orange: #b8620a; --c-purple: #7a2fa8;
+}
+
+/* 🌙 Night: cave/deepslate */
+[data-theme='minecraft'][data-mode='dark'] {
+  --bg: #14161f;
+  --surface: #2b2e3a;           /* deepslate */
+  --surface-hover: #363a49;
+  --text: #ecebf2;
+  --text-muted: #a3a6b8;
+  --border: #07080c;
+  --primary: #3e8a2a;
+  --primary-hover: #4fa337;
+  --btn-text: #ffffff;
+  --accent: #e0a020;            /* torch */
+  --ok: #3f9a2e; --bad: #d4483b;
+  --mark: #6b5d00;
+  --input-bg: #1b1d27;
+  --card-shadow: inset -4px -4px 0 #1f2230, inset 4px 4px 0 #3d4153;
+  --btn-shadow: inset -4px -4px 0 rgba(0,0,0,.45), inset 4px 4px 0 rgba(255,255,255,.22);
+  --btn-shadow-pressed: inset 4px 4px 0 rgba(0,0,0,.45), inset -4px -4px 0 rgba(255,255,255,.15);
+  --c-red: #ff7a6e; --c-green: #7ee06a; --c-blue: #7db4ff; --c-orange: #ffb24d; --c-purple: #d29bff;
+}
+[data-theme='minecraft'] .card, [data-theme='minecraft'] .btn, [data-theme='minecraft'] input[type=text] { image-rendering: pixelated; }
+[data-theme='minecraft'] .btn { text-shadow: 2px 2px 0 rgba(0,0,0,.4); }
+[data-theme='minecraft'] .btn.secondary { text-shadow: none; }

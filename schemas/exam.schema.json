@@ -1,0 +1,11 @@
+{
+  "$id": "exam",
+  "type": "object",
+  "required": ["id", "title", "items"],
+  "properties": {
+    "id": { "$ref": "common#/$defs/id" },
+    "title": { "type": "string" },
+    "pass_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+    "items": { "type": "array", "items": { "$ref": "common#/$defs/id" } }
+  }
+}

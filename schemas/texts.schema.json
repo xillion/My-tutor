@@ -1,0 +1,21 @@
+{
+  "$id": "texts",
+  "type": "object",
+  "required": ["texts"],
+  "properties": {
+    "texts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "body"],
+        "properties": {
+          "id": { "$ref": "common#/$defs/id" },
+          "title": { "type": "string" },
+          "section": { "$ref": "common#/$defs/id" },
+          "body": { "$ref": "common#/$defs/richtext" },
+          "hints": { "type": "array", "items": { "type": "object" } }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "math-1",
+  "type": "content",
+  "subject": "math",
+  "title": "Math: Addition",
+  "description": "Sum, addends and the commutative law",
+  "version": "0.1.0",
+  "languages": [
+    "ru"
+  ],
+  "requires": {
+    "core": ">=1.0"
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Addition",
+      "lessons": [
+        "l-add"
+      ]
+    }
+  ]
+}

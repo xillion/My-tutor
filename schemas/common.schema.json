@@ -1,0 +1,25 @@
+{
+  "$id": "common",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "fx": { "type": "string", "pattern": "^(bold|italic|underline|strike|mark|color:[#a-z0-9-]+|size:(s|l|xl))$" },
+    "segment": {
+      "type": "object",
+      "required": ["t"],
+      "properties": {
+        "t": { "type": "string" },
+        "lang": { "type": "string" },
+        "fx": { "type": "array", "items": { "$ref": "common#/$defs/fx" } },
+        "term": { "$ref": "common#/$defs/id" },
+        "audio": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "richtext": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "$ref": "common#/$defs/segment" } }
+      ]
+    }
+  }
+}

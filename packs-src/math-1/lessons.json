@@ -1,0 +1,78 @@
+{
+  "lessons": [
+    {
+      "id": "l-add",
+      "title": "Сложение",
+      "section": "s1",
+      "terms": [
+        "sum",
+        "addend",
+        "commutative",
+        "zero-add"
+      ],
+      "blocks": [
+        {
+          "kind": "heading",
+          "body": "Складываем числа"
+        },
+        {
+          "kind": "text",
+          "body": [
+            {
+              "t": "В примере 2 + 3 = 5 числа 2 и 3 — "
+            },
+            {
+              "t": "слагаемые",
+              "fx": [
+                "bold",
+                "color:green"
+              ],
+              "term": "addend"
+            },
+            {
+              "t": ", а 5 — "
+            },
+            {
+              "t": "сумма",
+              "fx": [
+                "bold",
+                "color:red"
+              ],
+              "term": "sum"
+            },
+            {
+              "t": "."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "body": [
+            {
+              "t": "От перемены мест слагаемых сумма не меняется: 2 + 3 = 3 + 2. Это "
+            },
+            {
+              "t": "переместительный закон",
+              "fx": [
+                "underline"
+              ],
+              "term": "commutative"
+            },
+            {
+              "t": "."
+            }
+          ]
+        },
+        {
+          "kind": "terms",
+          "terms": [
+            "sum",
+            "addend",
+            "commutative",
+            "zero-add"
+          ]
+        }
+      ]
+    }
+  ]
+}

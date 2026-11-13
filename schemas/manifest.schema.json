@@ -1,0 +1,29 @@
+{
+  "$id": "manifest",
+  "type": "object",
+  "required": ["schema_version", "id", "type", "subject", "title", "version", "languages"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "$ref": "common#/$defs/id" },
+    "type": { "enum": ["content", "game"] },
+    "subject": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "version": { "type": "string" },
+    "languages": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "requires": { "type": "object", "properties": { "core": { "type": "string" } } },
+    "optional": { "type": "array", "items": { "enum": ["tts", "ai", "game", "pen"] } },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": { "$ref": "common#/$defs/id" },
+          "title": { "type": "string" },
+          "lessons": { "type": "array", "items": { "$ref": "common#/$defs/id" } }
+        }
+      }
+    }
+  }
+}

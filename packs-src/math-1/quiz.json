@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "m1",
+      "kind": "choice",
+      "section": "s1",
+      "lesson": "l-add",
+      "terms": [
+        "sum"
+      ],
+      "prompt": "Как называется результат сложения?",
+      "options": [
+        "Слагаемое",
+        "Сумма",
+        "Разность"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "m2",
+      "kind": "choice",
+      "section": "s1",
+      "lesson": "l-add",
+      "terms": [
+        "addend"
+      ],
+      "prompt": "В 4 + 6 = 10 число 4 — это…",
+      "options": [
+        "сумма",
+        "слагаемое",
+        "знак"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "m3",
+      "kind": "input",
+      "section": "s1",
+      "lesson": "l-add",
+      "terms": [
+        "commutative"
+      ],
+      "prompt": "7 + 2 = 2 + ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "Переместительный закон: a + b = b + a."
+    },
+    {
+      "id": "m4",
+      "kind": "input",
+      "section": "s1",
+      "lesson": "l-add",
+      "terms": [
+        "zero-add"
+      ],
+      "prompt": "9 + 0 = ?",
+      "answer": [
+        "9"
+      ]
+    },
+    {
+      "id": "m5",
+      "kind": "match",
+      "section": "s1",
+      "terms": [
+        "sum",
+        "addend"
+      ],
+      "prompt": "Соедини",
+      "pairs": [
+        [
+          "сумма",
+          "результат"
+        ],
+        [
+          "слагаемое",
+          "часть суммы"
+        ]
+      ]
+    }
+  ]
+}

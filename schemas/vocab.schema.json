@@ -1,0 +1,24 @@
+{
+  "$id": "vocab",
+  "type": "object",
+  "required": ["terms"],
+  "properties": {
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "text"],
+        "properties": {
+          "id": { "$ref": "common#/$defs/id" },
+          "type": { "enum": ["word", "concept", "definition", "law", "constant", "lemma"] },
+          "text": { "$ref": "common#/$defs/richtext" },
+          "meaning": { "$ref": "common#/$defs/richtext" },
+          "ipa": { "type": "string" },
+          "audio": { "type": "string" },
+          "image": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

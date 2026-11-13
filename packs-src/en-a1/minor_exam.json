@@ -1,0 +1,11 @@
+{
+  "id": "minor-s1",
+  "title": "Greetings check",
+  "pass_ratio": 0.75,
+  "items": [
+    "q1",
+    "q2",
+    "q3",
+    "q4"
+  ]
+}

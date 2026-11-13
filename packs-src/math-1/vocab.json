@@ -1,0 +1,136 @@
+{
+  "terms": [
+    {
+      "id": "sum",
+      "type": "concept",
+      "text": [
+        {
+          "t": "Сумма",
+          "lang": "ru",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "Результат сложения",
+          "lang": "ru"
+        }
+      ],
+      "tags": [
+        "grade1"
+      ]
+    },
+    {
+      "id": "addend",
+      "type": "concept",
+      "text": [
+        {
+          "t": "Слагаемое",
+          "lang": "ru",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "Число, которое складывают",
+          "lang": "ru"
+        }
+      ],
+      "tags": [
+        "grade1"
+      ]
+    },
+    {
+      "id": "commutative",
+      "type": "law",
+      "text": [
+        {
+          "t": "Переместительный закон",
+          "lang": "ru",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "a + b = b + a",
+          "lang": "ru"
+        }
+      ],
+      "tags": [
+        "grade1"
+      ]
+    },
+    {
+      "id": "zero-add",
+      "type": "law",
+      "text": [
+        {
+          "t": "Свойство нуля",
+          "lang": "ru",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "a + 0 = a",
+          "lang": "ru"
+        }
+      ],
+      "tags": [
+        "grade1"
+      ]
+    },
+    {
+      "id": "equals",
+      "type": "definition",
+      "text": [
+        {
+          "t": "Равно",
+          "lang": "ru",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "Знак «=» показывает, что две части равны",
+          "lang": "ru"
+        }
+      ],
+      "tags": [
+        "grade1"
+      ]
+    },
+    {
+      "id": "pi",
+      "type": "constant",
+      "text": [
+        {
+          "t": "Число π",
+          "lang": "ru",
+          "fx": [
+            "bold"
+          ]
+        }
+      ],
+      "meaning": [
+        {
+          "t": "≈ 3,14 — отношение длины окружности к диаметру",
+          "lang": "ru"
+        }
+      ],
+      "tags": [
+        "grade1"
+      ]
+    }
+  ]
+}

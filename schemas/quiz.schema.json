@@ -1,0 +1,35 @@
+{
+  "$id": "quiz",
+  "type": "object",
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "prompt"],
+        "properties": {
+          "id": { "$ref": "common#/$defs/id" },
+          "kind": { "enum": ["choice", "input", "match"] },
+          "section": { "$ref": "common#/$defs/id" },
+          "lesson": { "$ref": "common#/$defs/id" },
+          "terms": { "type": "array", "items": { "$ref": "common#/$defs/id" } },
+          "prompt": { "$ref": "common#/$defs/richtext" },
+          "options": { "type": "array", "items": { "$ref": "common#/$defs/richtext" } },
+          "answer": {
+            "oneOf": [
+              { "type": "integer" },
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          },
+          "pairs": {
+            "type": "array",
+            "items": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 }
+          },
+          "explain": { "$ref": "common#/$defs/richtext" }
+        }
+      }
+    }
+  }
+}

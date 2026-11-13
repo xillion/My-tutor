@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "en-a1",
+  "type": "content",
+  "subject": "english",
+  "title": "English A1: First words",
+  "description": "Greetings, family and colours",
+  "version": "0.1.0",
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "requires": {
+    "core": ">=1.0"
+  },
+  "optional": [
+    "tts"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Greetings",
+      "lessons": [
+        "l-greetings"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Family",
+      "lessons": [
+        "l-family"
+      ]
+    }
+  ]
+}

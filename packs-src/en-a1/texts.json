@@ -1,0 +1,50 @@
+{
+  "texts": [
+    {
+      "id": "t-hello",
+      "title": "A little dialogue",
+      "section": "s1",
+      "body": [
+        {
+          "t": "— Hello! ",
+          "lang": "en"
+        },
+        {
+          "t": "(Привет!)",
+          "lang": "ru",
+          "fx": [
+            "italic",
+            "color:gray"
+          ]
+        },
+        {
+          "t": "\n— Hello, sister! ",
+          "lang": "en"
+        },
+        {
+          "t": "(Привет, сестра!)",
+          "lang": "ru",
+          "fx": [
+            "italic",
+            "color:gray"
+          ]
+        },
+        {
+          "t": "\n— Goodbye, ",
+          "lang": "en"
+        },
+        {
+          "t": "mother",
+          "lang": "en",
+          "fx": [
+            "mark"
+          ]
+        },
+        {
+          "t": "!",
+          "lang": "en"
+        }
+      ]
+    }
+  ]
+}
